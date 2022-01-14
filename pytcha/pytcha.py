@@ -8,7 +8,7 @@ from PIL import Image, ImageDraw, ImageFont
 import random
 
 
-class Person:
+class Generate:
 
     def __init__(self):
         get_number = None
@@ -26,7 +26,7 @@ class Person:
         print(get_number)
         return get_number
 
-    " get a 6 character captcha with letters, numbers lower and upper case "
+    " get a 6 character captcha with letters, lower and upper case + numbers "
 
     @staticmethod
     def captcha_combo(chars=string.ascii_uppercase + string.digits):
@@ -40,5 +40,5 @@ class Person:
 
 
 if __name__ == "__main__":
-    get = Person()
+    get = Generate()
     get.captcha_combo()
