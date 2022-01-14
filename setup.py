@@ -15,7 +15,7 @@ setup(name='pytcha',
       maintainer='jeremystevens',
       license='GPL-3.0',
       license_file='LICENSE',
-      packages=['pytcha'],
+      packages=['pytcha/pytcha'],
       include_package_data=True,
       classifiers=[
           'Intended Audience :: Web Developers',
