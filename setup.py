@@ -27,5 +27,5 @@ setup(name='pytcha',
           'Programming Language :: Python :: 3.9',
       ],
       python_requires='>=3.7',
-      install_requires=['pillow'],
+      install_requires=['pillow','rstr'],
       zip_safe=False)
